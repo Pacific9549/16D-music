@@ -62,3 +62,53 @@
   </footer>
 </body>
 </html>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+header, footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1f1f1f;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #00ffd5;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00ffd5;
+  color: #121212;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00c7aa;
+}
+
+audio {
+  margin-top: 1rem;
+  width: 80%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+}
